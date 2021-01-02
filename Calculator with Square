@@ -1,11 +1,10 @@
 #calculator new V2
 import math
-x = input('Calculator, Type 1 --- Square Root & Square, Type 2: ')
+x = input('For Calculator type 1:\n Square Root & Square, Type 2:\nTo quit type q')
 
 
 
 if x == '1':
-    def function1():
         print("Calculator")
         if_number_is_not_float = True
         while if_number_is_not_float:
@@ -34,14 +33,12 @@ if x == '1':
             print(num1 / num2)
         if op == "*":
             print(num1 * num2)
-            
-    print(function1())
+  
 
-if x == "q":
+while (x == "q"):
     print(x)
 
 if x == "2":
-    def function2():
         print("Square Root & Square")
         z = float(input("Square root, type 1 ---- Square, type 2: "))
         if z == 1:
@@ -59,12 +56,11 @@ if x == "2":
 
             print(function3())
         if z == 2:
-            def function4():
                 print("Square")
                 this_is_a_number1 = True
                 while this_is_a_number1:
                     try:
-                        rello = float(input("1st Number: "))
+                        square = float(input("1st Number: "))
                     except ValueError: 
                         print("That is not a number!")
                     else:
@@ -73,11 +69,9 @@ if x == "2":
                 this_is_a_number2 = True
                 while this_is_a_number2:
                     try:
-                        hello = float(input("2nd Number: "))
+                        square2 = float(input("2nd Number: "))
                     except ValueError:
                         print("That is not a number!")
                     else:
                         this_is_a_number2 = False
-                print(hello**rello)
-            print(function4())                      
-    print(function2())
+                print(square**square2)
