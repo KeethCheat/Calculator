@@ -72,6 +72,6 @@ if x == "2":
                         square2 = float(input("2nd Number: "))
                     except ValueError:
                         print("That is not a number!")
-                    else:
+                    else: 
                         this_is_a_number2 = False
                 print(square**square2)
