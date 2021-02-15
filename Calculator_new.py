@@ -1,6 +1,6 @@
 #calculator new V2
 import math
-x = input('For Calculator type 1:\n Square Root & Square, Type 2:\nTo quit type q')
+x = input('For Calculator type 1:\nSquare Root & Square, Type 2\nTo quit type q: ')
 
 
 
@@ -52,7 +52,7 @@ if x == "2":
                         print("That is not a number!")
                     else:
                         this_is_a_number = False 
-                    print(math.sqrt(f))
+                    return math.sqrt(f)
 
             print(function3())
         if z == 2:
